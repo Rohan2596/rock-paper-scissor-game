@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   color: #9c27b0;
+  height: 100vh;
 }
 
 #root{

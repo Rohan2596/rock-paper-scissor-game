@@ -16,7 +16,19 @@
     align-items: center;   
 }
 .home_image_container{
-    height: 100vh;
+    height: 70vh;
+    animation-duration: 5s;
+    animation-name: hi-hand;
+}
+@keyframes hi-hand {
+    0%{
+        height: 70vh;
+        transform: rotate(25deg);
+    }
+    50%{
+        height: 70vh;
+        transform: rotate(-25deg);
+    }
 }
 .font_style{
  font-family: 'Poppins';
